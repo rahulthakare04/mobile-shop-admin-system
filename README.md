@@ -9,7 +9,7 @@ All admin and product information is stored in a secure MySQL database, with sen
 ---
 
 ## 📚 Java & Spring Boot Concepts Covered
-- **Spring Boot** – REST Controllers, Service Layer, Repository Layer  
+- **Spring Boot** – Controllers, Service Layer, Repository Layer  
 - **Spring Data JPA** – ORM mapping with MySQL  
 - **MVC Architecture** – Clean separation of logic and UI  
 - **Authentication** – Secure admin login  
@@ -20,7 +20,7 @@ All admin and product information is stored in a secure MySQL database, with sen
 ---
 
 ## 🔧 Technologies Used
-- Java 17+
+- Java 21
 - Spring Boot
 - Spring Data JPA
 - MySQL
@@ -74,10 +74,89 @@ All admin and product information is stored in a secure MySQL database, with sen
 
 ---
 
+### Clone the Repository
+```bash
+git clone https://github.com/rahulthakare04/mobile-shop-admin-system.git
+cd mobile-shop-admin-system
+## 🌐 Cloud Database and Security
+- Supports **local and cloud-hosted MySQL** databases.
+- Sensitive data (e.g., DB credentials) are hidden in the public repository.
+- Admin can securely access and manage data through the web platform.
+
+---
+
+
 ## 🌄 How to Run the Project
 
 ### Clone the Repository
 ```bash
 git clone https://github.com/rahulthakare04/mobile-shop-admin-system.git
 cd mobile-shop-admin-system
+```
 
+### Configure Database
+Create the database:
+
+```sql
+CREATE DATABASE mobile_shop_admin;
+```
+
+Update application.properties with your database credentials:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/mobile_shop_admin
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
+
+Insert sample admins and products data for testing.
+
+### Deploy and Run
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+
+### Access via Browser
+Open: http://localhost:8080  
+Login with your admin credentials.
+
+---
+
+## 📸 Video Execution
+🎥 **Demo Video:** (Replace this with YouTube or Google Drive link)
+
+---
+
+## 🚀 Future Improvements
+- Password encryption for admin accounts.
+- Enhanced session timeout handling.
+- Role-based dashboard (Admin / Staff).
+- Improved UI/UX with Bootstrap 5.
+- Product image upload support.
+
+---
+
+## 👥 Author
+**Rahul Thakare**  
+Java Backend Developer | Web Application Enthusiast  
+[LinkedIn](https://linkedin.com/in/rahulthakare) | [GitHub](https://github.com/rahulthakare04)
+
+---
+
+## 📜 View-Only License
+Copyright (c) 2025 Rahul Thakare
+
+Permission is granted to view and reference this code for educational and learning purposes only.
+
+**RESTRICTIONS:**
+
+❌ No copying, modification, or distribution is allowed
+
+❌ No commercial use permitted
+
+❌ No derivative works allowed
+
+✅ Code is for reference and learning only
