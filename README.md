@@ -143,7 +143,7 @@ https://github.com/user-attachments/assets/4e59c9fa-1885-496f-a7ad-440e17052e88
 ## 👥 Author
 **Rahul Thakare**  
 Java Backend Developer | Web Application Enthusiast  
-[LinkedIn](https://linkedin.com/in/rahulthakare) | [GitHub](https://github.com/rahulthakare04)
+[GitHub](https://github.com/rahulthakare04)
 
 ---
 
