@@ -1,3 +1,4 @@
+
 # 📱 Product Admin System for Mobile Shop
 
 ## 📅 Project Story
@@ -126,7 +127,7 @@ Login with your admin credentials.
 ---
 
 ## 📸 Video Execution
-🎥 **Demo Video:** (Replace this with YouTube or Google Drive link)
+https://github.com/user-attachments/assets/4e59c9fa-1885-496f-a7ad-440e17052e88
 
 ---
 
